@@ -2,16 +2,16 @@
 class AltiCli < Formula
   desc "Command line interface for altizure.com, with fast and robust uploads."
   homepage "https://github.com/altizure/alti-cli"
-  version "1.1.0"
+  version "1.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/altizure/alti-cli/releases/download/v1.1.0/alti-cli_1.1.0_Darwin_x86_64.tar.gz"
-    sha256 "d498293446d6fa7263ec7eda732b6a8fc947b138d5ebc878e84c1593167cbeed"
+    url "https://github.com/altizure/alti-cli/releases/download/v1.1.1/alti-cli_1.1.1_Darwin_x86_64.tar.gz"
+    sha256 "5234fbc524558fec389b4f1b0bec91194b99e16ace65f979636920d287c625e0"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/altizure/alti-cli/releases/download/v1.1.0/alti-cli_1.1.0_Linux_x86_64.tar.gz"
-      sha256 "5ee10d83678817b3739ad0f4c8f1f880da5dbed62f4d3a8ba61a72e8c5d43271"
+      url "https://github.com/altizure/alti-cli/releases/download/v1.1.1/alti-cli_1.1.1_Linux_x86_64.tar.gz"
+      sha256 "94e2dc5e903bd521d932663b52feec448441bc3cf3fd17013bda32bf75f6dcdd"
     end
   end
 
